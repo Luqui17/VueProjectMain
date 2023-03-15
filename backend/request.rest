@@ -1,0 +1,22 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+        "CnpjEmitente": "6161616",
+        "RzSocialEmitente":"65161698",
+        "CnpjDestinatario": "741657156",
+        "RzSocialDestinatario":"1665165",
+        "XmlKey":"86565165",
+        "Value":561651,
+        "xmlNumber":541541
+}
+
+###
+GET http://localhost:3000/api/services 
+
+###
+GET http://localhost:3000/api/services/641101227b7bd5b35e32262c 
+
+###
+DELETE http://localhost:3000/api/services/641101227b7bd5b35e32262c 
+
